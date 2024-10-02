@@ -24,7 +24,7 @@ function Form(props) {
           name="searchterm"
           onChange={handleChange}
           value={formData.searchterm}
-          // className="searchbar"
+          className="searchbar"
         />
 
         <input type="submit" className="submitBtn" value="submit" />

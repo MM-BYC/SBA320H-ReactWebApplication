@@ -1,6 +1,6 @@
 import React from "react";
 
-export function MovieDisplay({ movie, handleFavorite }) {
+export function MovieDisplay({ movie }) {
   const loaded = () => {
     return (
       <>
@@ -8,7 +8,6 @@ export function MovieDisplay({ movie, handleFavorite }) {
         <h2>{movie.Genre}</h2>
         <img src={movie.Poster} alt="movie.Title" />
         <h2> {movie.Year}</h2>
-        <button onClick={handleFavorite}>Favorite</button>
       </>
     );
   };
