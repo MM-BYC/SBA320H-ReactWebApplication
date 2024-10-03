@@ -16,6 +16,7 @@ function App() {
       );
       const data = await response.json();
       setMovie(data);
+      console.log(JSON.stringify(data));
     } catch (e) {
       console.error(e);
     }
